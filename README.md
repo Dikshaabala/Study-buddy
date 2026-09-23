@@ -1,1 +1,7 @@
-# Study-buddy
+AI StudyBuddy is an AI-powered learning support platform designed to simplify the learning process for students by utilizing modern web technologies and Generative AI. The application provides an intelligent backend system that allows students to upload study materials, generate concise summaries, create flashcards, develop quizzes, and receive personalized study plans through AI-generated responses.
+
+The backend is developed using Node.js and Express.js, following a RESTful API architecture that supports scalability, maintainability, and secure communication between frontend and backend services. MongoDB is used as the primary NoSQL database, while Mongoose ODM offers schema validation, data modeling, and efficient database operations.
+
+To protect user information and secured resources, the application implements JWT (JSON Web Token) based authentication along with Role-Based Access Control (RBAC). Users are authenticated before accessing AI-powered features, ensuring that only authorized users can utilize premium learning services. Passwords are securely encrypted using bcryptjs, helping prevent unauthorized access to user credentials.
+
+One of the major highlights of AI StudyBuddy is its integration with the Google Gemini AI API, which enables the application to perform advanced natural language processing tasks. Rather than depending on predefined templates, the backend dynamically interacts with the Gemini model to generate high-quality educational content based on the study materials provided by the user.
